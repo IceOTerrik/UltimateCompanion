@@ -1,0 +1,67 @@
+{
+  "ProjectName": "UltimateCompanion",
+  "ProjectGuid": "3a177cfe-6bcb-4071-a652-490a431e40a5",
+  "projectVersion": 1,
+  "AppIdentifier": "com.excellentapps.ultimatecompanion",
+  "DisplayName": "Ultimate Companion",
+  "Author": "Chillisoft",
+  "Description": "UltimateCompanion",
+  "BundleVersion": "1.7",
+  "AndroidVersionCode": "7",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "Ultimate Companion",
+  "WP8Publisher": "Excellent Apps",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{49fc2230-06cf-4898-8365-d0e2cfe3451c}",
+  "WP8ProductID": "{7fbb845d-1810-4065-994a-c1959794fa04}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "excellentapps.UltimateCompanion",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.battery-status",
+    "org.apache.cordova.camera",
+    "org.apache.cordova.console",
+    "org.apache.cordova.contacts",
+    "org.apache.cordova.device",
+    "org.apache.cordova.device-motion",
+    "org.apache.cordova.device-orientation",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.file",
+    "org.apache.cordova.file-transfer",
+    "org.apache.cordova.geolocation",
+    "org.apache.cordova.globalization",
+    "org.apache.cordova.inappbrowser",
+    "org.apache.cordova.media",
+    "org.apache.cordova.media-capture",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar",
+    "org.apache.cordova.vibration"
+  ],
+  "iOSDeploymentTarget": "6.0"
+}

@@ -1,0 +1,62 @@
+<div data-role="view" data-title="Login" data-layout="" data-model="app.loginService.viewModel" data-init="init">
+
+     <!--Login View-->
+    <div id="tabstrip-login">
+     
+     
+
+        <div data-role="landing">
+        <img src="images/logo.png" width="100%" height="100%" />
+
+    </div>
+        <div>
+            <h3 data-bind="visible: isLoggedIn">Welcome, <span data-bind="text: firstname"></span>!</h3>
+            <input id="logout" type="submit" data-role="button" data-bind="click: onLogout, visible: isLoggedIn" value="Logout" class="login-button" />
+        </div>
+        <form data-bind="events: { keyup: checkEnter }" class="boxlogin" >
+            <fieldset class="blackfont" style="width:100%" >
+
+          
+            <ul data-role="listview" data-style="inset" data-bind="invisible: isLoggedIn" style="background-color: #000;" >
+                 <h3 data-bind="invisible: isLoggedIn">Validate Voucher:</h3>
+                      <li >
+                    <label>
+                        <div class="blackfont">First Name:</div>
+                        <input type="text" data-bind="value: firstname"/>
+                    </label>
+                </li>
+                     <li>
+                    <label>
+                        <div class="blackfont">Last Name:</div>
+                        <input type="text" data-bind="value: lastname" />
+                    </label>
+                </li>
+                
+                <li>
+                    <label>
+                        <div class="blackfont">Email:</div>
+                        <input type="email" data-bind="value: email" />
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <div class="blackfont">Voucher Code:</div>
+                        <input type="token" data-bind="value: token" />
+                    </label>
+                    <div class="blackfont">No Voucher? <a href="http://birdbook.co.za/index.php?route=product/category&path=59"><bold>CLICK HERE </bold> </a> to Order the book and collect your voucher inside
+                    </div>
+                </li>
+           
+            </ul>
+                </fieldset>
+
+    		<!-- <input id="login" type="button" data-role="button" data-bind="click: onLogin,invisible: isLoggedIn" value="Login" class="login-button" /> -->
+            <button id="login" type="button" data-bind="events:{click: onLogin},invisible: isLoggedIn" class="btnLogin">Validate</button>
+        </form>
+
+    </div>
+
+   
+                        
+                  
+</div> 

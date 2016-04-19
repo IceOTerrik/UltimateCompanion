@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="please_wait">Please wait while downloading additional resources</string>
+    <string name="downloading_assets">Downloading…</string>
+    <string name="preparing_assets">File processing…</string>
+    <string name="download_failed">Download failed</string>
+    <string name="error">Error</string>
+    <string name="close">Close</string>
+    <string name="xapk_expansion_authority">com.excellentapps.ultimatecompanion</string>
+    <string name="xapk_application_public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuiVnokEpI0wU5EWll178Xeep6rA6hstLUf7Lsk/1nUgxtFNvxyeflXkjzff3h7Ki8KYF79K5Ck8scx9qmrsNmL53RMKuZeLM8HfnIFgicB/MaF0SnsofHpmr+1fLOzGWBE66m5et1eRci4+7DWFt++NhiVgh2jGigV3jnnFguipyfGaCORbd8sEXVI3u4tFCWOVJrDIaJUPo5yCJsrqu1hg5fRbiD8bs73wVxp0R7KpDKElM0KLVLTOVjKaHkTkCvADOgA64fZ1N0OKFpoVN7Zq/qzVZ4VJPukqR5nOc8hyxTHeX1blNiM7kHZT4+iPXqi2CHsPv0xuflAktpZ5hmwIDAQAB</string>
+</resources>

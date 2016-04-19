@@ -1,0 +1,40 @@
+<div data-role="view" data-title="Chapters" data-layout="main" data-model="APP.models.chapters">
+  
+    
+        
+    <div id="chaptsFreewall" class="free-wall"></div>
+    <script type="text/javascript">
+        var w = 140,
+            h = 140,
+            html = '',
+            limitItem = 27;
+
+        for (var i = 1; i < limitItem; ++i) {
+            var currentItem = $("<div chapt-id='" + i + "' class='cell' style='width:" + w + "px; height: " + h + "px; background-image: url(images/i/photo/" + i + ".jpg)'></div>");
+
+            currentItem.on('click', function () {
+                var currentItemId = $(this).attr("chapt-id");
+
+                window.location.hash = "views/birdfamily.html?chaptId=" + currentItemId;
+            });
+
+            $("#chaptsFreewall").append(currentItem);
+        }
+        
+        var wall = new Freewall("#chaptsFreewall");
+        wall.reset({
+            selector: '.cell',
+            animate: true,
+            cellW: 150,
+            cellH: 150,
+            onResize: function () {
+                wall.refresh();
+            }
+        });
+
+        wall.fitWidth();
+
+        // For scroll bar appear;
+        $(window).trigger("resize");
+    </script>
+</div>
